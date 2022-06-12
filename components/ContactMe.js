@@ -13,10 +13,10 @@ const ContactMe = (props) => {
       </div>
       <div
         className="max-w-screen-xl mt-12 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-white text-gray-dark rounded-lg shadow-lg">
-        <div class="flex flex-col justify-between">
+        <div className="flex flex-col justify-between">
           <div>
-            <h2 class="text-4xl lg:text-5xl font-bold text-dark leading-tight">Lets talk about everything!</h2>
-            <div class="text-gray-700 mt-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-dark leading-tight">Lets talk about everything!</h2>
+            <div className="text-gray-700 mt-8">
               Hate forms? Send us an <span className="underline">email</span> instead.
             </div>
           </div>
@@ -24,25 +24,25 @@ const ContactMe = (props) => {
             <img className="max-h-72" src="/images/contact_form_illustration.svg"/>
           </div>
         </div>
-        <div class="">
+        <div className="">
           <div>
-            <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
-            <input class="w-full bg-gray-white text-dark mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            <span className="uppercase text-sm text-gray-600 font-bold">Full Name</span>
+            <input className="w-full bg-gray-white text-dark mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text" placeholder=""/>
           </div>
-          <div class="mt-8">
-            <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
-            <input class="w-full bg-gray-white text-dark mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+          <div className="mt-8">
+            <span className="uppercase text-sm text-gray-600 font-bold">Email</span>
+            <input className="w-full bg-gray-white text-dark mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"/>
           </div>
-          <div class="mt-8">
-            <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
+          <div className="mt-8">
+            <span className="uppercase text-sm text-gray-600 font-bold">Message</span>
             <textarea
-              class="w-full h-32 bg-gray-white text-dark mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+              className="w-full h-32 bg-gray-white text-dark mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
           </div>
-          <div class="mt-8">
+          <div className="mt-8">
             <button
-              class="uppercase text-sm font-bold tracking-wide bg-pink text-white p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+              className="uppercase text-sm font-bold tracking-wide bg-pink text-white p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
               Send Message
             </button>
           </div>
