@@ -13,94 +13,94 @@ const Experience = (props) => {
         </div>
         
         <div className="flex gap-x-4">
-          <div class="flex items-center justify-center bg-white py-10">
-            <div class="max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg px-20 mx-auto">
-              <ol class="relative border-l-4 border-indigo-600 leading-loose">
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">2015</p>
-                  <p class="font-bold text-lg mb-1">Web Developer</p>
-                  <p class="font-bold text-sm mb-2">(Freelancer)</p>
+          <div className="flex items-center justify-center bg-white py-10">
+            <div className="max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg px-20 mx-auto">
+              <ol className="relative border-l-4 border-indigo-600 leading-loose">
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2015</p>
+                  <p className="font-bold text-lg mb-1">Web Developer</p>
+                  <p className="font-bold text-sm mb-2">(Freelancer)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">2016</p>
-                  <p class="font-bold text-lg mb-1">
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2016</p>
+                  <p className="font-bold text-lg mb-1">
                     App development, BusTracker
                   </p>
-                  <p class="font-bold text-sm mb-2">(Personal Project)</p>
+                  <p className="font-bold text-sm mb-2">(Personal Project)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">
                     2017 <br />
                     2018
                   </p>
-                  <p class="font-bold text-lg mb-1">App design, Cryb</p>
-                  <p class="font-bold text-sm mb-2">(Personal Project)</p>
+                  <p className="font-bold text-lg mb-1">App design, Cryb</p>
+                  <p className="font-bold text-sm mb-2">(Personal Project)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">2018</p>
-                  <p class="font-bold text-lg mb-1">Illustrator, Wannabe Inc</p>
-                  <p class="font-bold text-sm mb-2">(Freelance)</p>
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2018</p>
+                  <p className="font-bold text-lg mb-1">Illustrator, Wannabe Inc</p>
+                  <p className="font-bold text-sm mb-2">(Freelance)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">2019</p>
-                  <p class="font-bold text-lg mb-1">Intern, Unknown Company</p>
-                  <p class="font-bold text-sm mb-2">(Contract)</p>
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2019</p>
+                  <p className="font-bold text-lg mb-1">Intern, Unknown Company</p>
+                  <p className="font-bold text-sm mb-2">(Contract)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">
                     2019 <br />
                     2020
                   </p>
-                  <p class="font-bold text-lg mb-1">
+                  <p className="font-bold text-lg mb-1">
                     Software Engineer, Unknown Company
                   </p>
-                  <p class="font-bold text-sm mb-2">(Contract)</p>
+                  <p className="font-bold text-sm mb-2">(Contract)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.75rem] p-0 m-0 font-bold">
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.75rem] p-0 m-0 font-bold">
                     2021 -
                   </p>
-                  <p class="font-bold text-lg mb-1">
+                  <p className="font-bold text-lg mb-1">
                     Full Stack Developer, Unknown Company
                   </p>
-                  <p class="font-bold text-sm mb-2">(Contract)</p>
+                  <p className="font-bold text-sm mb-2">(Contract)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
@@ -110,94 +110,94 @@ const Experience = (props) => {
               </ol>
             </div>
           </div>
-          <div class="flex items-center justify-center bg-white py-10">
-            <div class="max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg px-20 mx-auto">
-              <ol class="relative border-l-4 border-indigo-600 leading-loose">
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">2015</p>
-                  <p class="font-bold text-lg mb-1">Web Developer</p>
-                  <p class="font-bold text-sm mb-2">(Freelancer)</p>
+          <div className="flex items-center justify-center bg-white py-10">
+            <div className="max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg px-20 mx-auto">
+              <ol className="relative border-l-4 border-indigo-600 leading-loose">
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2015</p>
+                  <p className="font-bold text-lg mb-1">Web Developer</p>
+                  <p className="font-bold text-sm mb-2">(Freelancer)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">2016</p>
-                  <p class="font-bold text-lg mb-1">
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2016</p>
+                  <p className="font-bold text-lg mb-1">
                     App development, BusTracker
                   </p>
-                  <p class="font-bold text-sm mb-2">(Personal Project)</p>
+                  <p className="font-bold text-sm mb-2">(Personal Project)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">
                     2017 <br />
                     2018
                   </p>
-                  <p class="font-bold text-lg mb-1">App design, Cryb</p>
-                  <p class="font-bold text-sm mb-2">(Personal Project)</p>
+                  <p className="font-bold text-lg mb-1">App design, Cryb</p>
+                  <p className="font-bold text-sm mb-2">(Personal Project)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">2018</p>
-                  <p class="font-bold text-lg mb-1">Illustrator, Wannabe Inc</p>
-                  <p class="font-bold text-sm mb-2">(Freelance)</p>
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2018</p>
+                  <p className="font-bold text-lg mb-1">Illustrator, Wannabe Inc</p>
+                  <p className="font-bold text-sm mb-2">(Freelance)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">2019</p>
-                  <p class="font-bold text-lg mb-1">Intern, Unknown Company</p>
-                  <p class="font-bold text-sm mb-2">(Contract)</p>
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2019</p>
+                  <p className="font-bold text-lg mb-1">Intern, Unknown Company</p>
+                  <p className="font-bold text-sm mb-2">(Contract)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.5rem] p-0 m-0 font-bold">
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">
                     2019 <br />
                     2020
                   </p>
-                  <p class="font-bold text-lg mb-1">
+                  <p className="font-bold text-lg mb-1">
                     Software Engineer, Unknown Company
                   </p>
-                  <p class="font-bold text-sm mb-2">(Contract)</p>
+                  <p className="font-bold text-sm mb-2">(Contract)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,
                     hendrerit diam a, gravida felis.
                   </p>
                 </li>
-                <li class="mb-10 ml-6 w-[400px]">
-                  <div class="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p class="absolute -left-[3.75rem] p-0 m-0 font-bold">
+                <li className="mb-10 ml-6 w-[400px]">
+                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <p className="absolute -left-[3.75rem] p-0 m-0 font-bold">
                     2021 -
                   </p>
-                  <p class="font-bold text-lg mb-1">
+                  <p className="font-bold text-lg mb-1">
                     Full Stack Developer, Unknown Company
                   </p>
-                  <p class="font-bold text-sm mb-2">(Contract)</p>
+                  <p className="font-bold text-sm mb-2">(Contract)</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis non pretium erat. Praesent convallis libero ornare,

@@ -29,16 +29,16 @@ const AboutMe = (props) => {
             </p>
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:{" "}
-              <span className="text-yellow">'Ajay Sharma'</span>,
+              <span className="text-yellow">&apos;Ajay Sharma&apos;</span>,
             </p>
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;position:{" "}
-              <span className="text-yellow">'fullstack-developer'</span>,
+              <span className="text-yellow">&apos;fullstack-developer&apos;</span>,
             </p>
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;website:{" "}
               <span className="text-yellow-300">
-                '
+              &apos;
                 <a
                   href="https://ajaysharma.dev"
                   target="_blank"
@@ -46,7 +46,7 @@ const AboutMe = (props) => {
                 >
                   https://ajaysharma.dev
                 </a>
-                '
+                &apos;
               </span>
               ,
             </p>
