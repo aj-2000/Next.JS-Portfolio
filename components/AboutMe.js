@@ -42,7 +42,8 @@ const AboutMe = (props) => {
                 <a
                   href="https://ajaysharma.dev"
                   target="_blank"
-                  class="text-yellow hover:underline focus:border-none"
+                  rel="noreferrer"
+                  className="text-yellow hover:underline focus:border-none"
                 >
                   https://ajaysharma.dev
                 </a>
