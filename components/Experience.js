@@ -3,7 +3,7 @@ import { AiOutlineHome } from "react-icons/ai";
 const Experience = (props) => {
   return (
     <>
-    <div className="flex flex-col items-center justify-center mih-h-screen bg-dark gap-8 px-8 py-12">
+      <div className="flex flex-col items-center justify-centr gap-8 px-8 py-12 ">
         <div className="flex justify-center items-center gap-x-3 w-full">
           <p className="text-white text-md font-bold">GO BACK TO </p>
           <AiOutlineHome
@@ -12,99 +12,29 @@ const Experience = (props) => {
           />
         </div>
         
-        <div className="flex gap-x-4">
           <div className="flex items-center justify-center bg-white py-10">
             <div className="max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg px-20 mx-auto">
-              <ol className="relative border-l-4 border-indigo-600 leading-loose">
+              <ol className="relative border-l-4 border-yellow leading-loose">
                 <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2015</p>
-                  <p className="font-bold text-lg mb-1">Web Developer</p>
-                  <p className="font-bold text-sm mb-2">(Freelancer)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
-                  </p>
-                </li>
-                <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2016</p>
-                  <p className="font-bold text-lg mb-1">
-                    App development, BusTracker
-                  </p>
-                  <p className="font-bold text-sm mb-2">(Personal Project)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
-                  </p>
-                </li>
-                <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <div className="absolute w-4 h-4 bg-white border-4 border-yellow rounded-full -left-[0.6rem]"></div>
                   <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">
-                    2017 <br />
-                    2018
+                    2019<br/> -<br/> 2020
                   </p>
-                  <p className="font-bold text-lg mb-1">App design, Cryb</p>
-                  <p className="font-bold text-sm mb-2">(Personal Project)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
+                  <p className="font-bold text-lg mb-1">Midfields Sr. Sec. School</p>
+                  <p className="font-bold text-sm mb-2">(CBSE Board 12th with Science Stream)</p>
+                  <p className="font-bold text-xs">
+                    92%
                   </p>
                 </li>
                 <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2018</p>
-                  <p className="font-bold text-lg mb-1">Illustrator, Wannabe Inc</p>
-                  <p className="font-bold text-sm mb-2">(Freelance)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
-                  </p>
-                </li>
-                <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2019</p>
-                  <p className="font-bold text-lg mb-1">Intern, Unknown Company</p>
-                  <p className="font-bold text-sm mb-2">(Contract)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
-                  </p>
-                </li>
-                <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <div className="absolute w-4 h-4 bg-white border-4 border-yellow rounded-full -left-[0.6rem]"></div>
                   <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">
-                    2019 <br />
-                    2020
+                    2020<br/>
                   </p>
-                  <p className="font-bold text-lg mb-1">
-                    Software Engineer, Unknown Company
-                  </p>
-                  <p className="font-bold text-sm mb-2">(Contract)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
-                  </p>
-                </li>
-                <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p className="absolute -left-[3.75rem] p-0 m-0 font-bold">
-                    2021 -
-                  </p>
-                  <p className="font-bold text-lg mb-1">
-                    Full Stack Developer, Unknown Company
-                  </p>
-                  <p className="font-bold text-sm mb-2">(Contract)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
+                  <p className="font-bold text-lg mb-1">Netaji Subhas Institute of Technology</p>
+                  <p className="font-bold text-sm mb-2">(B.TECH. in Computer Science)</p>
+                  <p className="font-bold text-xs">
+                    8.0/10 CGPA
                   </p>
                 </li>
               </ol>
@@ -112,103 +42,33 @@ const Experience = (props) => {
           </div>
           <div className="flex items-center justify-center bg-white py-10">
             <div className="max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg px-20 mx-auto">
-              <ol className="relative border-l-4 border-indigo-600 leading-loose">
+              <ol className="relative border-l-4 border-pink leading-loose">
                 <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2015</p>
-                  <p className="font-bold text-lg mb-1">Web Developer</p>
-                  <p className="font-bold text-sm mb-2">(Freelancer)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
-                  </p>
-                </li>
-                <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2016</p>
-                  <p className="font-bold text-lg mb-1">
-                    App development, BusTracker
-                  </p>
-                  <p className="font-bold text-sm mb-2">(Personal Project)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
-                  </p>
-                </li>
-                <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
+                  <div className="absolute w-4 h-4 bg-white border-4 border-pink rounded-full -left-[0.6rem]"></div>
                   <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">
-                    2017 <br />
-                    2018
-                  </p>
-                  <p className="font-bold text-lg mb-1">App design, Cryb</p>
-                  <p className="font-bold text-sm mb-2">(Personal Project)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
-                  </p>
-                </li>
-                <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2018</p>
-                  <p className="font-bold text-lg mb-1">Illustrator, Wannabe Inc</p>
-                  <p className="font-bold text-sm mb-2">(Freelance)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
-                  </p>
-                </li>
-                <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">2019</p>
-                  <p className="font-bold text-lg mb-1">Intern, Unknown Company</p>
-                  <p className="font-bold text-sm mb-2">(Contract)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
-                  </p>
-                </li>
-                <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p className="absolute -left-[3.5rem] p-0 m-0 font-bold">
-                    2019 <br />
-                    2020
+                    APR
+                    <br /> 2022
+                    <br /> -<br /> MAY
+                    <br /> 2022
+                    <br />
                   </p>
                   <p className="font-bold text-lg mb-1">
-                    Software Engineer, Unknown Company
+                    Microsoft Engage'22 Mentee
                   </p>
-                  <p className="font-bold text-sm mb-2">(Contract)</p>
+                  <p className="font-bold text-sm mb-2">(Apprenticeship)</p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
+                    Intern Engage is a program for engineering students across
+                    India graduating in 2024. It is designed to provide a
+                    platform for engineering students to accelerate their growth
+                    and foster industry-relevant skills through mentorship,
+                    coding challenges, workshops and networking opportunities.
                   </p>
-                </li>
-                <li className="mb-10 ml-6 w-[400px]">
-                  <div className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"></div>
-                  <p className="absolute -left-[3.75rem] p-0 m-0 font-bold">
-                    2021 -
-                  </p>
-                  <p className="font-bold text-lg mb-1">
-                    Full Stack Developer, Unknown Company
-                  </p>
-                  <p className="font-bold text-sm mb-2">(Contract)</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis non pretium erat. Praesent convallis libero ornare,
-                    hendrerit diam a, gravida felis.
-                  </p>
+                  <div className="absolute w-4 h-4 bg-white border-4 border-pink rounded-full -left-[0.6rem]"></div>
                 </li>
               </ol>
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };

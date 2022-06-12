@@ -3,7 +3,7 @@ import { AiOutlineHome } from "react-icons/ai";
 const AboutMe = (props) => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center mih-h-screen bg-dark gap-8 px-8 py-12">
+      <div className="flex flex-col items-center justify-center gap-8 px-8 py-12">
         <div className="flex justify-center items-center gap-x-3 w-full">
           <p className="text-white text-md font-bold">GO BACK TO </p>
           <AiOutlineHome
