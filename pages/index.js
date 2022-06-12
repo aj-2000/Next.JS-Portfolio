@@ -43,7 +43,7 @@ export default function Index() {
       <motion.div
         animate={{ x: xHome, y: yHome }}
         initial={{ x: xHome, y: yHome }}
-        className={`h-screen w-screen bg-white fixed`}
+        className={`h-screen w-screen bg-dark fixed`}
       >
         {xHome === "0%" && yHome === "0%" && (
           <Home
