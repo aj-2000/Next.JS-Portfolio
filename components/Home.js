@@ -136,7 +136,7 @@ const Home = (props) => {
           Ajay Sharma
         </h1>
         <div className="text-white text-center text-xl font-light">
-          I'm a{" "}
+          I&apos;m a{" "}
           <Typed
             strings={[
               "Front-End developer",
