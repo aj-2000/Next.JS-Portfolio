@@ -113,7 +113,7 @@ const Home = (props) => {
       </div>
       {/* Up arrow */}
       <div className="absolute left-[50vw] translate-x-[-50%] drop-shadow-2xl cursor-pointer">
-        <AiOutlineArrowUp className="text-yellow h-[15vh] w-[15vh]" />
+        <AiOutlineArrowUp className="text-yellow h-[15vh] w-[15vh] text-center" />
         <p className="text-yellow font-bold text-xl text-center">EXPERIENCE</p>
       </div>
 
@@ -122,7 +122,7 @@ const Home = (props) => {
         <p className="text-yellow font-bold text-xl text-center">PROJECTS</p>
         <AiOutlineArrowDown
           onClick={props.homeToProjectsHandler}
-          className="text-yellow h-[15vh] w-[15vh] "
+          className="text-yellow h-[15vh] w-[15vh] text-center"
         />
       </div>
 
@@ -174,7 +174,7 @@ const Home = (props) => {
           <SiGithub />
         </div>
         <buttton className="w-36 h-11  py-2 text-center text-white font-bold bg-pink rounded-full cursor-pointer">
-          HIRE ME
+          RESUME
         </buttton>
       </div>
     </>
