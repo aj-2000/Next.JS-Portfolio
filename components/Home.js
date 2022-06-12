@@ -33,98 +33,114 @@ const Home = (props) => {
   return (
     <>
       <div className="absolute w-screen h-screen">
-      <Particles
-      id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={{
-        background: {
-          color: {
-            value: "#353353",
-          },
-        },
-        fpsLimit: 120,
-        interactivity: {
-          events: {
-            onClick: {
-              enable: true,
-              mode: "push",
+        <Particles
+          id="tsparticles"
+          init={particlesInit}
+          loaded={particlesLoaded}
+          options={{
+            background: {
+              color: {
+                value: "#353353",
+              },
             },
-            onHover: {
-              enable: true,
-              mode: "repulse",
+            fpsLimit: 120,
+            interactivity: {
+              events: {
+                // onClick: {
+                //   enable: true,
+                //   mode: "push",
+                // },
+                onHover: {
+                  enable: true,
+                  mode: "repulse",
+                },
+                resize: true,
+              },
+              modes: {
+                push: {
+                  quantity: 4,
+                },
+                repulse: {
+                  distance: 200,
+                  duration: 0.4,
+                },
+              },
             },
-            resize: true,
-          },
-          modes: {
-            push: {
-              quantity: 4,
+            particles: {
+              color: {
+                value: ["#FFD15C", "#FF4C60"],
+              },
+              links: {
+                color: "#6C6CE5",
+                distance: 150,
+                enable: true,
+                opacity: 0.5,
+                width: 2,
+              },
+              collisions: {
+                enable: true,
+              },
+              move: {
+                direction: "none",
+                enable: true,
+                outModes: {
+                  default: "bounce",
+                },
+                random: false,
+                speed: 6,
+                straight: false,
+              },
+              number: {
+                density: {
+                  enable: true,
+                  area: 800,
+                },
+                value: 80,
+              },
+              opacity: {
+                value: 0.5,
+              },
+              shape: {
+                type: "circle",
+              },
+              size: {
+                value: { min: 1, max: 5 },
+              },
             },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
-          },
-        },
-        particles: {
-          color: {
-            value: "#ffffff",
-          },
-          links: {
-            color: "#ffffff",
-            distance: 150,
-            enable: true,
-            opacity: 0.5,
-            width: 1,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outModes: {
-              default: "bounce",
-            },
-            random: false,
-            speed: 6,
-            straight: false,
-          },
-          number: {
-            density: {
-              enable: true,
-              area: 800,
-            },
-            value: 80,
-          },
-          opacity: {
-            value: 0.5,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            value: { min: 1, max: 5 },
-          },
-        },
-        detectRetina: true,
-      }}
-    />
+            detectRetina: true,
+          }}
+        />
       </div>
       {/* Up arrow */}
-      <AiOutlineArrowUp className="h-[15vh] w-[15vh] absolute left-[50vw] translate-x-[-50%]  drop-shadow-2xl" />
+      <div className="absolute left-[50vw] translate-x-[-50%] drop-shadow-2xl cursor-pointer">
+        <AiOutlineArrowUp className="text-yellow h-[15vh] w-[15vh]" />
+        <p className="text-yellow font-bold text-xl text-center">EXPERIENCE</p>
+      </div>
+
       {/* Down arrow */}
-      <AiOutlineArrowDown
-        onClick={props.homeToProjectsHandler}
-        className="h-[15vh] w-[15vh] absolute left-[50vw] top-[100vh] translate-x-[-50%] translate-y-[-100%] drop-shadow-2xl"
-      />
+      <div className="absolute left-[50vw] top-[100vh] translate-x-[-50%] translate-y-[-100%] drop-shadow-2xl cursor-pointer">
+        <p className="text-yellow font-bold text-xl text-center">PROJECTS</p>
+        <AiOutlineArrowDown
+          onClick={props.homeToProjectsHandler}
+          className="text-yellow h-[15vh] w-[15vh] "
+        />
+      </div>
+
       {/* left arrow */}
-      <AiOutlineArrowLeft className="h-[25vh] w-[25vh] absolute top-[50vh] translate-y-[-50%] drop-shadow-2xl" />
+      <div className="absolute top-[50vh] translate-y-[-50%] drop-shadow-2xl cursor-pointer">
+        <AiOutlineArrowLeft className="text-blue h-[25vh] w-[25vh]" />
+        <p className="text-blue font-bold text-2xl text-center">ABOUT ME</p>
+      </div>
+
       {/* right arrow */}
-      <AiOutlineArrowRight
-        onClick={props.homeToContactMeHandler}
-        className="h-[25vh] w-[25vh] absolute top-[50vh] translate-y-[-50%] left-[100%] translate-x-[-100%] drop-shadow-2xl"
-      />
+      <div className="absolute top-[50vh] translate-y-[-50%] left-[100%] translate-x-[-100%] drop-shadow-2xl cursor-pointer">
+        <p className="text-pink font-bold text-2xl text-center">CONTACT ME</p>
+        <AiOutlineArrowRight
+          onClick={props.homeToContactMeHandler}
+          className="text-pink h-[25vh] w-[25vh]"
+        />
+      </div>
+
       {/* INTRO */}
       <div className="grid justify-items-center	gap-6 absolute top-[50vh] left-[50vw] translate-y-[-50%] translate-x-[-50%]">
         <img
@@ -157,8 +173,8 @@ const Home = (props) => {
           <SiMaildotru />
           <SiGithub />
         </div>
-        <buttton className="w-36 h-11  py-2 text-center text-white font-bold bg-pink rounded-full">
-          Hire me
+        <buttton className="w-36 h-11  py-2 text-center text-white font-bold bg-pink rounded-full cursor-pointer">
+          HIRE ME
         </buttton>
       </div>
     </>
