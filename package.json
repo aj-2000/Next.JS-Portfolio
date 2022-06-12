@@ -9,21 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.6.4",
     "@react-three/drei": "^9.13.0",
     "@react-three/fiber": "^8.0.22",
     "framer-motion": "^6.3.11",
-    "fslightbox-react": "^1.6.2-2",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-animate-on-scroll": "^2.1.5",
-    "react-cursor-position": "^3.0.3",
     "react-dom": "18.1.0",
     "react-icons": "^4.4.0",
     "react-tsparticles": "^2.0.6",
     "react-typed": "^1.2.0",
-    "sass": "^1.52.3",
-    "scss": "^0.2.4",
     "three": "^0.141.0",
     "tsparticles": "^2.0.6"
   },

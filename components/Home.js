@@ -113,7 +113,7 @@ const Home = (props) => {
       </div>
       {/* Up arrow */}
       <div className="absolute left-[50vw] translate-x-[-50%] drop-shadow-2xl cursor-pointer">
-        <AiOutlineArrowUp className="text-yellow h-[15vh] w-[15vh] text-center" />
+        <AiOutlineArrowUp onClick={props.homeToExperienceHandler} className="text-yellow h-[15vh] w-[15vh] text-center" />
         <p className="text-yellow font-bold text-xl text-center">EXPERIENCE</p>
       </div>
 
@@ -128,7 +128,7 @@ const Home = (props) => {
 
       {/* left arrow */}
       <div className="absolute top-[50vh] translate-y-[-50%] drop-shadow-2xl cursor-pointer">
-        <AiOutlineArrowLeft className="text-blue h-[25vh] w-[25vh]" />
+        <AiOutlineArrowLeft onClick={props.homeToAboutMeHandler} className="text-blue h-[25vh] w-[25vh]" />
         <p className="text-blue font-bold text-2xl text-center">ABOUT ME</p>
       </div>
 

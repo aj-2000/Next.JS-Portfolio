@@ -4,7 +4,7 @@ import Project from "./Project";
 const Projects = (props) => {
   return (
     <>
-      <div className="bg-dark px-8 py-12">
+      <div className="bg-dark min-h-screen px-8 py-12">
         <div className="flex justify-center items-center gap-x-3 w-full">
           <p className="text-white text-md font-bold">GO BACK TO </p>
           <AiOutlineHome

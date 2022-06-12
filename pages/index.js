@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import ContactMe from "../components/ContactMe";
 import Projects from "../components/Projects";
 import Home from "../components/Home";
+import AboutMe from "../components/AboutMe";
+import Experience from "../components/Experience";
 export default function Index() {
 
   const [xHome, setXHome] = useState("0%");
@@ -11,6 +13,10 @@ export default function Index() {
   const [yContactMe, setYContactMe] = useState("0%");
   const [xProjects, setXProjects] = useState("0%");
   const [yProjects, setYProjects] = useState("100%");
+  const [xAboutMe, setXAboutMe] = useState("-100%");
+  const [yAboutMe, setYAboutMe] = useState("0%");
+  const [xExperience, setXExperience] = useState("0%");
+  const [yExperience, setYExperience] = useState("-100%");
 
   function homeToContactMeHandler(event) {
     setXHome("-100%");
@@ -38,6 +44,32 @@ export default function Index() {
     setYProjects("100%");
   }
 
+  function homeToAboutMeHandler(event) {
+    setXHome("100%");
+    setYHome("0%");
+    setXAboutMe("0%");
+    setYAboutMe("0%");
+  }
+  function aboutMeToHomeHandler(event) {
+    setXHome("0%");
+    setYHome("0%");
+    setXAboutMe("100%");
+    setYAboutMe("0%");
+  }
+
+  function homeToExperienceHandler(event) {
+    setXHome("0%");
+    setYHome("100%");
+    setXExperience("0%");
+    setYExperience("0%");
+  }
+  function experienceToHomeHandler(event) {
+    setXHome("0%");
+    setYHome("0%");
+    setXExperience("");
+    setYExperience("-100%");
+  }
+
   return (
     <div className="">
 
@@ -50,6 +82,8 @@ export default function Index() {
           <Home
             homeToContactMeHandler={homeToContactMeHandler}
             homeToProjectsHandler={homeToProjectsHandler}
+            homeToAboutMeHandler={homeToAboutMeHandler}
+            homeToExperienceHandler={homeToExperienceHandler}
           />
         )}
       </motion.div>
@@ -75,6 +109,26 @@ export default function Index() {
       >
         {xProjects === "0%" && yProjects === "0%" && (
           <Projects projectsToHomeHandler={projectsToHomeHandler} />
+        )}
+      </motion.div>
+
+      <motion.div
+        animate={{ x: xAboutMe, y: yAboutMe }}
+        initial={{ x: xAboutMe, y: yAboutMe }}
+        className={`h-screen w-screen fixed overflow-scroll bg-white`}
+      >
+        {xAboutMe === "0%" && yAboutMe === "0%" && (
+          <AboutMe aboutMeToHomeHandler={aboutMeToHomeHandler}/>
+        )}
+      </motion.div>
+
+      <motion.div
+        animate={{ x: xExperience, y: yExperience }}
+        initial={{ x: xExperience, y: yExperience }}
+        className={`h-screen w-screen fixed overflow-scroll bg-white`}
+      >
+        {xExperience === "0%" && yExperience === "0%" && (
+          <Experience experienceToHomeHandler={experienceToHomeHandler}/>
         )}
       </motion.div>
     </div>

@@ -7,7 +7,7 @@ import {  AiOutlineHome } from "react-icons/ai";
 
 const ContactMe = (props) => {
   return (
-    <body className="bg-dark px-8 py-12">
+    <div className="mih-h-screen bg-dark px-8 py-12">
       
       <div className="flex justify-center items-center gap-x-3 w-full">
         <p className="text-white text-md font-bold">GO BACK TO </p>
@@ -50,7 +50,7 @@ const ContactMe = (props) => {
           </div>
         </div>
       </div>
-    </body>
+    </div>
   );
 };
 
