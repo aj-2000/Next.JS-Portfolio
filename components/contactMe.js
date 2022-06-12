@@ -4,7 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Model from "./ModelDraco";
 import {  AiOutlineHome } from "react-icons/ai";
-const contactMe = (props) => {
+const ContactMe = (props) => {
   return (
     <body className="bg-dark px-8 py-12">
       <div className="flex justify-center items-center gap-x-3 w-full">
@@ -52,4 +52,4 @@ const contactMe = (props) => {
   );
 };
 
-export default contactMe;
+export default ContactMe;
