@@ -31,7 +31,7 @@ export default function Index() {
     setXProjects("0%");
     setYProjects("0%");
   }
-  function ProjectsToHomeHandler(event) {
+  function projectsToHomeHandler(event) {
     setXHome("0%");
     setYHome("0%");
     setXProjects("0%");
@@ -40,6 +40,7 @@ export default function Index() {
 
   return (
     <div className="">
+
       <motion.div
         animate={{ x: xHome, y: yHome }}
         initial={{ x: xHome, y: yHome }}
@@ -73,7 +74,7 @@ export default function Index() {
         className={`h-screen w-screen fixed overflow-scroll bg-white`}
       >
         {xProjects === "0%" && yProjects === "0%" && (
-          <Projects ProjectsToHomeHandler={ProjectsToHomeHandler} />
+          <Projects projectsToHomeHandler={projectsToHomeHandler} />
         )}
       </motion.div>
     </div>

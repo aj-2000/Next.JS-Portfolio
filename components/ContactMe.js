@@ -4,9 +4,11 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Model from "./ModelDraco";
 import {  AiOutlineHome } from "react-icons/ai";
+
 const ContactMe = (props) => {
   return (
     <body className="bg-dark px-8 py-12">
+      
       <div className="flex justify-center items-center gap-x-3 w-full">
         <p className="text-white text-md font-bold">GO BACK TO </p>
         <AiOutlineHome onClick={props.contactMeToHomeHandler} className="text-yellow font-bold text-5xl cursor-pointer"/>
