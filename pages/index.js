@@ -39,11 +39,11 @@ export default function Index() {
   }
 
   return (
-    <>
+    <div className="">
       <motion.div
         animate={{ x: xHome, y: yHome }}
         initial={{ x: xHome, y: yHome }}
-        className={`h-screen w-screen bg-dark fixed`}
+        className={`h-screen w-screen fixed overflow-scroll bg-dark`}
       >
         {xHome === "0%" && yHome === "0%" && (
           <Home
@@ -56,7 +56,7 @@ export default function Index() {
       <motion.div
         animate={{ x: xContactMe, y: yContactMe }}
         initial={{ x: xContactMe, y: yContactMe }}
-        className={`h-screen w-screen fixed bg-white`}
+        className={`w-screen h-screen fixed overflow-scroll bg-white`}
       >
         {xContactMe === "0%" && yContactMe === "0%" && (
           <ContactMe
@@ -70,12 +70,12 @@ export default function Index() {
       <motion.div
         animate={{ x: xProjects, y: yProjects }}
         initial={{ x: xProjects, y: yProjects }}
-        className={`h-screen w-screen fixed bg-white`}
+        className={`h-screen w-screen fixed overflow-scroll bg-white`}
       >
         {xProjects === "0%" && yProjects === "0%" && (
           <Projects ProjectsToHomeHandler={ProjectsToHomeHandler} />
         )}
       </motion.div>
-    </>
+    </div>
   );
 }
