@@ -12,7 +12,7 @@ const Projects = (props) => {
       year: "2021",
       imageUrl:
         "https://cdn.dribbble.com/userupload/2867419/file/original-1a92c58b42a687485a2b9bdc467749ab.png?compress=1&resize=2400x1800",
-      link: "https://dribbble.com/shots/18469906-DEEM-Mobile",
+      link: "/post/3-months-of-programmer-dvorak",
     },
     {
       id: 2,
@@ -73,6 +73,7 @@ const Projects = (props) => {
   return (
     <>
       <div className="px-8 py-12">
+        
         <div className="flex justify-center items-center gap-x-3 w-full">
           <p className="text-white text-md font-bold">GO BACK TO </p>
           <AiOutlineHome
