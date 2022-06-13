@@ -13,7 +13,7 @@ const Experience = (props) => {
         </div>
         
           <div className="flex items-center justify-center bg-white py-10">
-            <div className="max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg px-20 mx-auto">
+            <div className="max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg px-20 mx-auto overflow:scroll">
               <ol className="relative border-l-4 border-yellow leading-loose">
                 <li className="mb-10 ml-6 w-[400px]">
                   <div className="absolute w-4 h-4 bg-white border-4 border-yellow rounded-full -left-[0.6rem]"></div>

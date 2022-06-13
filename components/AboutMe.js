@@ -11,7 +11,7 @@ const AboutMe = (props) => {
             className="text-yellow font-bold text-5xl cursor-pointer"
           />
         </div>
-        <div className="rounded-lg shadow-xl bg-gray-900 text-white h-[80vh] w-1/2">
+        <div className="rounded-lg shadow-xl bg-gray-900 text-white  w-full md:w-[450px]">
           <div className="border-b border-gray-800 px-8 py-3">
             <div className="inline-block w-3 h-3 mr-2 rounded-full bg-red-500"></div>
             <div className="inline-block w-3 h-3 mr-2 rounded-full bg-yellow"></div>
