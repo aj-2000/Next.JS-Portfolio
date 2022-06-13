@@ -3,12 +3,20 @@ import dynamic from "next/dynamic";
 const Typed = dynamic(() => import("react-typed"));
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { motion } from "framer-motion";
 import {
   AiOutlineArrowDown,
   AiOutlineArrowLeft,
   AiOutlineArrowUp,
   AiOutlineArrowRight,
 } from "react-icons/ai";
+
+import {
+  BiChevronsUp,
+  BiChevronsDown,
+  BiChevronsLeft,
+  BiChevronsRight,
+} from "react-icons/bi";
 import {
   SiCodeforces,
   SiGithub,
@@ -18,6 +26,16 @@ import {
   SiMaildotru,
 } from "react-icons/si";
 const Home = (props) => {
+  const bounceTransition = {
+    y: {
+      duration: 0.4,
+      yoyo: Infinity,
+    },
+    x: {
+      duration: 0.4,
+      yoyo: Infinity,
+    },
+  };
   const particlesInit = async (main) => {
     console.log(main);
 
@@ -113,32 +131,66 @@ const Home = (props) => {
       </div>
       {/* Up arrow */}
       <div className="absolute left-[50vw] translate-x-[-50%] drop-shadow-2xl cursor-pointer">
-        <AiOutlineArrowUp onClick={props.homeToExperienceHandler} className="text-yellow h-[15vh] w-[15vh] text-center" />
-        <p className="text-yellow font-bold text-xl text-center">EXPERIENCE</p>
+        <motion.div
+          transition={bounceTransition}
+          animate={{
+            y: ["10%", "-10%"],
+          }}
+        >
+          <BiChevronsUp
+            onClick={props.homeToExperienceHandler}
+            className="text-white h-[10vh] w-[10vh] text-center shadow-xl"
+          />
+        </motion.div>
+        {/* <p className="text-yellow font-bold text-xl text-center">EXPERIENCE</p> */}
       </div>
 
       {/* Down arrow */}
       <div className="absolute left-[50vw] top-[100vh] translate-x-[-50%] translate-y-[-100%] drop-shadow-2xl cursor-pointer">
-        <p className="text-yellow font-bold text-xl text-center">PROJECTS</p>
-        <AiOutlineArrowDown
-          onClick={props.homeToProjectsHandler}
-          className="text-yellow h-[15vh] w-[15vh] text-center"
-        />
+        {/* <p className="text-yellow font-bold text-xl text-center">PROJECTS</p> */}
+        <motion.div
+          transition={bounceTransition}
+          animate={{
+            y: ["10%", "-10%"],
+          }}
+        >
+          <BiChevronsDown
+            onClick={props.homeToProjectsHandler}
+            className="text-white h-[10vh] w-[10vh] text-center shadow-xl"
+          />
+        </motion.div>
       </div>
 
       {/* left arrow */}
       <div className="absolute top-[50vh] translate-y-[-50%] drop-shadow-2xl cursor-pointer">
-        <AiOutlineArrowLeft onClick={props.homeToAboutMeHandler} className="text-blue h-[25vh] w-[25vh]" />
-        <p className="text-blue font-bold text-2xl text-center">ABOUT ME</p>
+        <motion.div
+          transition={bounceTransition}
+          animate={{
+            x: ["10%", "-10%"],
+          }}
+        >
+          <BiChevronsLeft
+            onClick={props.homeToAboutMeHandler}
+            className="text-white h-[10vh] w-[10vh] text-center shadow-xl"
+          />
+        </motion.div>
+        {/* <p className="text-blue font-bold text-2xl text-center">ABOUT ME</p> */}
       </div>
 
       {/* right arrow */}
       <div className="absolute top-[50vh] translate-y-[-50%] left-[100%] translate-x-[-100%] drop-shadow-2xl cursor-pointer">
-        <p className="text-pink font-bold text-2xl text-center">CONTACT ME</p>
-        <AiOutlineArrowRight
-          onClick={props.homeToContactMeHandler}
-          className="text-pink h-[25vh] w-[25vh]"
-        />
+        {/* <p className="text-pink font-bold text-2xl text-center">CONTACT ME</p> */}
+        <motion.div
+          transition={bounceTransition}
+          animate={{
+            x: ["10%", "-10%"],
+          }}
+        >
+          <BiChevronsRight
+            onClick={props.homeToContactMeHandler}
+            className="text-white h-[10vh] w-[10vh] text-center shadow-xl"
+          />
+        </motion.div>
       </div>
 
       {/* INTRO */}

@@ -91,7 +91,7 @@ export default function Index() {
       <motion.div
         animate={{ x: xContactMe, y: yContactMe }}
         initial={{ x: xContactMe, y: yContactMe }}
-        className={`w-screen h-screen fixed overflow-scroll bg-dark`}
+        className={`w-screen h-screen fixed overflow-auto bg-dark`}
       >
         {xContactMe === "0%" && yContactMe === "0%" && (
           <ContactMe
@@ -105,7 +105,7 @@ export default function Index() {
       <motion.div
         animate={{ x: xProjects, y: yProjects }}
         initial={{ x: xProjects, y: yProjects }}
-        className={`h-screen w-screen fixed overflow-scroll bg-dark`}
+        className={`h-screen w-screen fixed overflow-auto bg-dark`}
       >
         {xProjects === "0%" && yProjects === "0%" && (
           <Projects projectsToHomeHandler={projectsToHomeHandler} />
@@ -115,7 +115,7 @@ export default function Index() {
       <motion.div
         animate={{ x: xAboutMe, y: yAboutMe }}
         initial={{ x: xAboutMe, y: yAboutMe }}
-        className={`h-screen w-screen fixed overflow-scroll bg-dark`}
+        className={`h-screen w-screen fixed overflow-auto bg-dark`}
       >
         {xAboutMe === "0%" && yAboutMe === "0%" && (
           <AboutMe aboutMeToHomeHandler={aboutMeToHomeHandler}/>
@@ -125,7 +125,7 @@ export default function Index() {
       <motion.div
         animate={{ x: xExperience, y: yExperience }}
         initial={{ x: xExperience, y: yExperience }}
-        className={`h-screen w-screen fixed overflow-scroll bg-dark`}
+        className={`h-screen w-screen fixed overflow-auto bg-dark`}
       >
         {xExperience === "0%" && yExperience === "0%" && (
           <Experience experienceToHomeHandler={experienceToHomeHandler}/>

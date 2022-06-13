@@ -5,14 +5,14 @@ const Projects = (props) => {
   const projectsData = [
     {
       id: 1,
-      title: "DEEM Mobile",
-      description: "Halo Mobile for Halo Lab",
-      category: "Android App",
-      month: "DEC",
-      year: "2021",
+      title: "Auto Analytics",
+      description: "Microsoft Engage 2022 Project",
+      category: "React.JS, Django",
+      month: "MAY",
+      year: "2022",
       imageUrl:
-        "https://cdn.dribbble.com/userupload/2867419/file/original-1a92c58b42a687485a2b9bdc467749ab.png?compress=1&resize=2400x1800",
-      link: "/post/3-months-of-programmer-dvorak",
+        "https://cdn.dribbble.com/users/518973/screenshots/18470414/media/1a513756018669cfb3d7d44e06ebb1f0.png?compress=1&resize=1600x1200&vertical=top",
+      link: "/post/auto-analytics",
     },
     {
       id: 2,

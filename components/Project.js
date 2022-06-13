@@ -5,7 +5,7 @@ export default function Project(props) {
       <div className="">
         <div className="rounded bg-white overflow-hidden shadow-lg">
           <div className="relative">
-            <img className="w-full" src={imageUrl} alt="Sunset in the mountains" />
+            <img className="w-full object-cover" src={imageUrl} alt="Sunset in the mountains" />
             <div className="hover:hidden transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-dark opacity-25"></div>
             <div className="absolute bottom-0 left-0 bg-pink px-4 py-2 text-white text-sm hover:bg-white hover:text-pink transition duration-500 ease-in-out">
               {category}
