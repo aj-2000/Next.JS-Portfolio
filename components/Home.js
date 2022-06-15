@@ -4,12 +4,6 @@ const Typed = dynamic(() => import("react-typed"));
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { motion } from "framer-motion";
-import {
-  AiOutlineArrowDown,
-  AiOutlineArrowLeft,
-  AiOutlineArrowUp,
-  AiOutlineArrowRight,
-} from "react-icons/ai";
 
 import {
   BiChevronsUp,
@@ -130,7 +124,7 @@ const Home = (props) => {
         />
       </div>
       {/* Up arrow */}
-      <div className="absolute left-[50vw] translate-x-[-50%] drop-shadow-2xl cursor-pointer">
+      <div className="absolute left-[50vw] translate-x-[-50%] cursor-pointer">
         <motion.div
           transition={bounceTransition}
           animate={{
@@ -139,16 +133,17 @@ const Home = (props) => {
         >
           <BiChevronsUp
             onClick={props.homeToExperienceHandler}
-            className="text-white h-[10vh] w-[10vh] text-center shadow-xl"
+            className="text-white h-[10vh] w-[10vh] text-center "
           />
         </motion.div>
         {/* <p className="text-yellow font-bold text-xl text-center">EXPERIENCE</p> */}
       </div>
 
       {/* Down arrow */}
-      <div className="absolute left-[50vw] top-[100vh] translate-x-[-50%] translate-y-[-100%] drop-shadow-2xl cursor-pointer">
+      <div className="absolute left-[50vw] top-[100vh] translate-x-[-50%] translate-y-[-100%] cursor-pointer">
         {/* <p className="text-yellow font-bold text-xl text-center">PROJECTS</p> */}
         <motion.div
+        
           transition={bounceTransition}
           animate={{
             y: ["10%", "-10%"],
@@ -156,13 +151,13 @@ const Home = (props) => {
         >
           <BiChevronsDown
             onClick={props.homeToProjectsHandler}
-            className="text-white h-[10vh] w-[10vh] text-center shadow-xl"
+            className="text-white h-[10vh] w-[10vh] text-center"
           />
         </motion.div>
       </div>
 
       {/* left arrow */}
-      <div className="absolute top-[50vh] translate-y-[-50%] drop-shadow-2xl cursor-pointer">
+      <div className="absolute top-[50vh] translate-y-[-50%] cursor-pointer">
         <motion.div
           transition={bounceTransition}
           animate={{
@@ -171,14 +166,14 @@ const Home = (props) => {
         >
           <BiChevronsLeft
             onClick={props.homeToAboutMeHandler}
-            className="text-white h-[10vh] w-[10vh] text-center shadow-xl"
+            className="text-white h-[10vh] w-[10vh] text-center "
           />
         </motion.div>
         {/* <p className="text-blue font-bold text-2xl text-center">ABOUT ME</p> */}
       </div>
 
       {/* right arrow */}
-      <div className="absolute top-[50vh] translate-y-[-50%] left-[100%] translate-x-[-100%] drop-shadow-2xl cursor-pointer">
+      <div className="absolute top-[50vh] translate-y-[-50%] left-[100%] translate-x-[-100%] cursor-pointer">
         {/* <p className="text-pink font-bold text-2xl text-center">CONTACT ME</p> */}
         <motion.div
           transition={bounceTransition}
@@ -188,7 +183,7 @@ const Home = (props) => {
         >
           <BiChevronsRight
             onClick={props.homeToContactMeHandler}
-            className="text-white h-[10vh] w-[10vh] text-center shadow-xl"
+            className="text-white h-[10vh] w-[10vh] text-center "
           />
         </motion.div>
       </div>
@@ -196,8 +191,8 @@ const Home = (props) => {
       {/* INTRO */}
       <div className="grid justify-items-center	gap-6 absolute top-[50vh] left-[50vw] translate-y-[-50%] translate-x-[-50%]">
         <img
-          className="h-[20vh] w-[20vh] rounded-full  drop-shadow-2xl"
-          src="/images/avatar-1.svg"
+          className="h-[20vh] w-[20vh] rounded-full drop-shadow-2xl border-white border-4"
+          src="/images/ajay_pro_pic.jpeg"
           alt="Ajay Sharma Profile Image"
         />
         <h1 className="text-white text-center text-4xl font-bold">
